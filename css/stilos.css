@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Titillium+Web:ital,wght@0,300;0,700;1,200;1,400;1,600&display=swap');
+*{
+    font-family: "titillium web";
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#inicio{
+    background:  linear-gradient(rgba (0,0,0,.103), rgba(241, 120, 171, 0.103)), 
+    url(fondo.jpg);
+    background-size: cover;
+    background-position: center center;
+    color:rgb(243, 246, 247);
+}
+
+.inicio .contenido-seccion {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.contenido-seccion header {
+    padding: 30px;
+       
+}
+
+p{
+    color: rgb(5, 4, 4);
+    Width: 300px;
+    font-size: 15px;
+}
+
+h1 { 
+    border: 3px rgb(10, 10, 10);
+    padding: 0px;
+    margin: auto;
+    color:rgb(255, 255, 255);
+    font-size: 70px;
+  
+}    
+
+h2 {
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+    color:rgb(8, 31, 63);
+} 
+
+body {
+    background-color: rgba(241, 120, 171, 0.103);
+} 
+
+input{
+    border: 2px solid powderblue;
+}
+
+#fotodeperfil { 
+    float: right ;
+    width: 200px; height: 200;
+   }
+
+fieldset {
+    display: block;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    padding-block-start: auto;
+    padding-inline-start: auto;
+    padding-inline-end: auto;
+    padding-block-end: auto;
+    min-inline-size: min-content;
+    border-width: 1px;
+    border-style:groove;
+    border-color: rgb(192, 192, 192);
+    border-image: initial;
+}
+
+#sobremi{
+    background-color: aliceblue;
+    padding: 140px 0 100px 0;
+    text-align: center;
+}

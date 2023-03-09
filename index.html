@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi CV</title>
+    <link rel="icon" type="image/x-icon" href="./logo/LogoMiCV.png">
+    <!--open graph data-->
+    <meta property="og:title" content="MiCVArgentinaPrograma4.0"/>
+    <link rel="stylesheet" type="text/css" href="./css/stilos.css"/>
+    
+    <style>
+    body {
+        font-family: 'titillium';font-size: 22px;
+    }
+    </style>
+    
+
+</head>
+<body>
+    <section class="Inicio" id="inicio" style="background-image:url(Imagenes/fondo.jpg)" > 
+    
+        <div class="contenido-seccion">  
+            <header>
+                <div class="nav-bar">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <nav id="nav" class="nav">
+                   <a href="#inicio">Inicio</a>
+                   <a href="#sobremi">Sobre Mi</a>
+                   <a href="#Portfolio">Portfolio</a>
+                   <a href="#idiomas">Idiomas</a>
+                   <a href="#contacto">Contacto</a>
+                </nav>
+                
+                <div class="logo">
+                    M<span class="color">CV</span>
+                </div>              
+            </header>
+
+            <div class="info">
+                <h1>Linda Rhodes</h1> 
+                <h2>Mi CV, Agentina Programa 4.0</h2>
+                <div class="redes">
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                </div>
+            </div>
+            <div class="foto">
+                <img src="./Imagenes/30.jpg"  id="fotodeperfil" alt="foto de pefil cv, mujer sonriendo y mirando al frente">
+            </div>
+        
+    </section>
+    <hr>
+
+    
+    
+    <fieldset>
+        <h2>Datos Personales</h2>
+        <ul>
+            <li>Documento: 99.345.778</li>
+            <li>Telefono: 123343521 </li>
+            <li>email: linda.rhodes@pepito.com</li>
+        </ul>
+    </fieldset>
+
+    <div id="sobremi">
+        <h2>Sobre Mi </h2>
+        <p>Nam fringilla felis nec nibh cursus, nec feugiat eros ornare. 
+            Praesent rutrum <strong> nec nibh </strong> turpis eget ante dictum, a sollicitudin nisi venenatis. 
+            Praesent ut hendrerit odio. <i>Nam eu sodales quam.<i\> Curabitur tincidunt iaculis porttitor. 
+            Phasellus finibus gravida nibh, quis ullamcorper dui faucibus a. Cras sed lectus purus. 
+            Nunc pulvinar ipsum ac felis tristique maximus. Donec risus enim, feugiat ut odio ac, pellentesque
+            imperdiet ligula. Donec lobortis feugiat enim ut pretium. In faucibus, magna nec consequat luctus, 
+            lectus purus scelerisque enim, vel <mark> tristique maximus </mark>dictum eros augue quis elit. Etiam tincidunt arcu a sodales 
+            luctus. Nunc iaculis id odio et consectetur. Integer rhoncus condimentum tempor.</p>
+        
+    </div>
+    <hr>
+
+    <picture>
+        <img src="./Imagenes/beauty.jpg" alt="modelo posando, mirando la camara" width="500px" height="700px">
+        <img src="./Imagenes/foto1.jpg" alt="Mujer con camara tomando foto en primer plano"width="500px" height="700px">
+        <img src="./Imagenes/fotografia-artistica-de-bicicletas-8.jpg" alt="rueda de bicicleta apoyada en la pared, tono sepia"width="500px" height="700px">
+        <img src="./Imagenes/pintura.jpg" alt="rostro cubierto de pintura"width="500px" height="700px" >
+        <img src="./Imagenes/rosa.jpg" alt="Mujer sosteniendo un ramo de flores color rojo "width="500px" height="700px">
+    </picture>
+    
+
+
+ <video width="700" height="500" controls>
+    <source src="./Videos/Boda.mp4" type="video/mp4">
+    Tu navegador no soporta el video, intenta desde otro dispositivo
+ </video>
+ <hr>
+
+ <div>
+ <Ul>
+    <h2>Idiomas</h2>
+    <li>Ingles</li>
+    <li>Aleman</li>
+    <li>Español</li>
+ </Ul>
+ </div>
+ <hr>
+
+ <section>
+    <h2>contactame</h2>
+    <form action="" method="post">
+        <label>Nombre:</label>
+        <input type="text" name="nombre" placeholder="Ingrese su Nombre"/>
+        <br>
+        <label>Apellido:</label>
+        <input type="text" name="apellido" placeholder="Ingrese su Apellido"/> 
+        <br>
+        <label>Telefono:</label>
+        <input type="number" name="Telefono" placeholder="Ingrese su Nùmero de Celular"/>
+        <br>
+        <label>E-mail:</label>
+        <br>
+        <input type="email" name="email" placeholder="Ingrese su email"/>
+        <br>
+        <label>comentario:</label>
+        <br>
+        <input type="textarea" name="comentarios" placeholder="Ingrese su comentario y/o consulta"  aria-required="false" aria-invalid="true">
+        <br>
+        <input type="submit" value="enviar">
+    </form>
+ </section>
+
+</body>
+</html>
